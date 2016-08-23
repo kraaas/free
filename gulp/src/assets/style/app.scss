@@ -15,21 +15,28 @@ body {
 
 .module {
   box-sizing: border-box;
+  border-radius: 5px;
   height: 50px;
   padding: 10px;
   border-bottom: 1px solid #dedede;
   text-align: center;
-  .module_avatar {
+  &_avatar {
     display: inline-block;
     width: 30px;
     height: 30px;
   }
-  .module_title {
+  &_left {
+    color: #fff;
+  }
+  &_left__active {
+
+  }
+  &_title {
     display: inline-block;
     font-size: 18px;
     margin: 0;
   }
-  .module_view {
+  &_view {
     width: 80px;
   }
 }
